@@ -1,5 +1,15 @@
 ## TODO
 
+
+### 일단 시작하는것, 보다 효율적이고 생산적으로 하는 방법에 대한 고민들
+
+> Docker with VScode
+
+이것저것 해보려면 이게 필요할듯
+Recently interested in ...
+C, C++, Python, Ruby, Go 
+
+
 ### 고성능 데이터 처리
 
 - 고성능 처리는 개별 task를 빠르게 처리하는 네트워크, low level programming 관련된이슈
@@ -23,11 +33,4 @@ GPU coding
 
  
 
-### 개발 관련
-
-> Docker with VScode
-
-이것저것 해보려면 이게 필요할듯
-Recently interested in ...
-C, C++, Python, Ruby, Go 
 

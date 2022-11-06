@@ -2,9 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>AboutPage with MarkDown</title>
+    <title>about.md</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
+    content는 일단 about.md를 바인딩
     <!-- 
 md파일을 어떤 레이아웃을 이용해서 html로 만들지 결정
 실제주소 라우팅도 이 md파일에 따름 
@@ -22,7 +24,7 @@ md파일을 어떤 레이아웃을 이용해서 html로 만들지 결정
 <span class="nt">&lt;html&gt;</span>
   <span class="nt">&lt;head&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;title&gt;</span>AboutPage with MarkDown<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;title&gt;</span>about.md<span class="nt">&lt;/title&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
   <span class="nt">&lt;body&gt;</span>
     
@@ -35,24 +37,13 @@ md파일을 어떤 레이아웃을 이용해서 html로 만들지 결정
 <p><strong>content</strong> is a special variable that returns the rendered content of the page on which it’s called.</p>
 
 
-    <!-- <nav>
+    mypage number: 
+    <nav>
     
-      <a href="/" >
-        Home
-      </a>
+        <a href="/" >Home</a>
     
-      <a href="/about.html" style="color: red;">
-        About
-      </a>
+        <a href="/about.html" class="current">About</a>
     
-</nav> -->
-
-<nav>
-  
-    <a href="/" > Home</a>
-  
-    <a href="/about.html"  class="current"> About</a>
-  
 </nav>
   </body>
 </html>

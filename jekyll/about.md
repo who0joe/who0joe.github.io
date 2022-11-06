@@ -1,6 +1,6 @@
 ---
-layout: my_default_layout
-title: AboutPage with MarkDown
+layout: default
+title: about.md
 ---
 <!-- 
 md파일을 어떤 레이아웃을 이용해서 html로 만들지 결정

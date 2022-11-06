@@ -1,21 +1,19 @@
 ---
-layout: my_default_layout
+layout: default
 my_number: 5
-title: my_first_jekyll
+title: index.html
 ---
 
+<h1>"Hello World!"</h1>
+<p> using filter => {{ "Hello World!" | downcase }}</p>
+
+<!-- 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{page.title}}</title>
-  </head>
   <body>
-    <nav>
-    </nav>
     <h1>"Hello World!"</h1>
     <h2>Liquid</h2>
     {{page.my_number}}
     <p>{{ "Hello World!" | downcase }}</p>
   </body>
-</html>
+</html> -->

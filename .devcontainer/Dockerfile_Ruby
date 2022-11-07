@@ -2,21 +2,16 @@
 
 FROM ruby:3.1.2-bullseye
 
-# ENV Variables required by Jekyll
-# ENV LANG=en_US.UTF-8 \
-#     LANGUAGE=en_US:en \
-#     LC_ALL=en_US.UTF-8 \
-#     LANG=en_US.UTF-8 \
-#     LANGUAGE=en_US \
-#     TZ=Asia/Seoul
-
 ENV TZ=Asia/Seoul 
 
 # Install bundler, latest jekyll
 RUN gem install bundler jekyll
 
+
+# Git Config
 RUN apt-get update \
     && apt-get -y install --no-install-recommends git
 
 RUN git config --system core.ignorecase false; \
- 	git config --system core.autocrlf true
+ 	git config --system core.autocrlf true; \
+    git config --system pull.rebase false

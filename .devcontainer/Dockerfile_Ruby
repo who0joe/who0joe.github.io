@@ -3,12 +3,14 @@
 FROM ruby:3.1.2-bullseye
 
 # ENV Variables required by Jekyll
-ENV LANG=en_US.UTF-8 \
-    LANGUAGE=en_US:en \
-    TZ=Asia/Seoul \
-    LC_ALL=en_US.UTF-8 \
-    LANG=en_US.UTF-8 \
-    LANGUAGE=en_US
+# ENV LANG=en_US.UTF-8 \
+#     LANGUAGE=en_US:en \
+#     LC_ALL=en_US.UTF-8 \
+#     LANG=en_US.UTF-8 \
+#     LANGUAGE=en_US \
+#     TZ=Asia/Seoul
+
+ENV TZ=Asia/Seoul 
 
 # Install bundler, latest jekyll
 RUN gem install bundler jekyll

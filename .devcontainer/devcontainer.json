@@ -3,8 +3,5 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"runArgs": ["--name", "jekyll_dev"],
-	"forwardPorts": [
-		4000
-	]
+	"runArgs": ["--name", "jekyll_dev"]
 }

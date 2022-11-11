@@ -1,5 +1,5 @@
 ---
-layout: default
+# layout: default
 ---
 
 - root directory에 .md파일 만들고 

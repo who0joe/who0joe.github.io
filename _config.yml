@@ -1,9 +1,8 @@
-theme: jekyll-theme-minimal
+title: Hooyoung # Main title holds all documents
+description: Documents using "Just the Docs" Jekyll Theme
+theme: just-the-docs # static setup for just-the-docs theme
 
-# Site settings
-title: Jekyll Doc Theme
-description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
-lang: en-US
+url: https://who0joe.github.io
 
+aux_links: # right-up side button link name and value, comment it NOT to use
+  My Project Repo: https://github.com/who0joe/who0joe.github.io

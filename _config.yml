@@ -1,8 +1,13 @@
+theme: just-the-docs # static setup for just-the-docs theme
+# remote_theme: just-the-docs/just-the-docs@v0.3.3
+
 title: Hooyoung # Main title holds all documents
 description: Documents using "Just the Docs" Jekyll Theme
-theme: just-the-docs # static setup for just-the-docs theme
 
 url: https://who0joe.github.io
 
 aux_links: # right-up side button link name and value, comment it NOT to use
-  My Project Repo: https://github.com/who0joe/who0joe.github.io
+  # My Project Repo: https://github.com/who0joe/who0joe.github.io
+  GithubPage : https://who0joe.github.io
+
+aux_links_new_tab: true

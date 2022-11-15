@@ -7,4 +7,10 @@ nav_order: 2
 ---
 
 
-![](../images/dayo.jpg)
+![]({{ site.url }}/docs/images/dayo.jpg)
+
+- title
+{{ site.title }}
+
+- site
+{{ site.url }}

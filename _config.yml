@@ -1,0 +1,26 @@
+theme: just-the-docs # static setup for just-the-docs theme
+# remote_theme: just-the-docs/just-the-docs@v0.3.3
+
+title: Hooyoung # Main title holds all documents
+description: Documents using "Just the Docs" Jekyll Theme
+
+url: https://who0joe.github.io
+
+aux_links: # right-up side button link name and value, comment it NOT to use
+  # My Project Repo: https://github.com/who0joe/who0joe.github.io
+  Configuration and Customization  : https://just-the-docs.github.io/just-the-docs/
+
+aux_links_new_tab: true
+
+# # External navigation links
+# nav_external_links:
+#   - title: Configuration and Customizing Guide
+#     url: https://just-the-docs.github.io/just-the-docs/
+
+# # Back to top link at the end of page
+# back_to_top: true
+# back_to_top_text: "Back to top"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html

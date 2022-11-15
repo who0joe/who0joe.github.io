@@ -1,7 +1,8 @@
 ---
 layout: default
+grand_parent: Documents
+parent: MarkDown
 title: MarkDown Test
-parent: MarkDown Guide
 nav_order: 1
 ---
 

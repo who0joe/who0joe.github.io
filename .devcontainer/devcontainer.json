@@ -5,7 +5,7 @@
 	},
 	"runArgs": [
 		"--name",
-		"jekyll_dev"
+		"github-page"
 	],
 	"customizations": {
 		"vscode": {

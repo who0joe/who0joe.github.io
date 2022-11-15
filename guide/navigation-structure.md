@@ -75,7 +75,7 @@ Pages with no `title` are automatically excluded from the main navigation.
 
 ## Pages with children
 
-Sometimes you will want to create a page with many children (a section). First, it is recommended that you keep pages that are related in a directory together... For example, in these docs, we keep all of the written documentation in the `./docs` directory and each of the sections in subdirectories like `./docs/ui-components` and `./docs/utilities`. This gives us an organization like:
+Sometimes you will want to create a page with many children (a section). First, it is recommended that you keep pages that are related in a directory together... For example, in these docs, we keep all of the written documentation in the `./docs` directory and each of the sections in subdirectories like `./docs/ui-components` and `./guide/utilities`. This gives us an organization like:
 
 ```
 +-- ..
@@ -235,7 +235,7 @@ Currently, the navigation structure is limited to 3 levels: grandchild pages can
 
 ## Auxiliary Links
 
-To add auxiliary links to your site (in the upper right on all pages), add it to the `aux_links` [configuration option]({{ site.baseurl }}{% link docs/configuration.md %}#aux-links) in your site's `_config.yml` file.
+To add auxiliary links to your site (in the upper right on all pages), add it to the `aux_links` [configuration option]({{ site.baseurl }}{% link guide/configuration.md %}#aux-links) in your site's `_config.yml` file.
 
 #### Example
 {: .no_toc }
@@ -251,7 +251,7 @@ aux_links:
 
 ## External Navigation Links
 
-To add external links to the navigation, add them to the `nav_external_links` [configuration]({{ site.baseurl }}{% link docs/configuration.md %}) option in your site's `_config.yml` file.
+To add external links to the navigation, add them to the `nav_external_links` [configuration]({{ site.baseurl }}{% link guide/configuration.md %}) option in your site's `_config.yml` file.
 External links will appear in the navigation after the links to ordinary pages, but before any collections.
 
 #### Example

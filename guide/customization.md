@@ -150,7 +150,7 @@ Just the Docs provides the following custom includes files:
 
 `_includes/toc_heading_custom.html`
 
-If the page has any child pages, and `has_toc` is not set to `false`, this content appears as a heading above the [auto-generating list of child pages]({{ site.baseurl }}{% link docs/navigation-structure.md %}#auto-generating-table-of-contents) after the page's content.
+If the page has any child pages, and `has_toc` is not set to `false`, this content appears as a heading above the [auto-generating list of child pages]({{ site.baseurl }}{% link guide/navigation-structure.md %}#auto-generating-table-of-contents) after the page's content.
 
 #### Example
 {: .no_toc }
@@ -166,7 +166,7 @@ The (optional) `text-delta` class makes the heading appear as **Contents**{:.tex
 
 `_includes/footer_custom.html`
 
-This content appears at the bottom of every page's main content. More info for this include can be found in the [Configuration - Footer content]({{ site.baseurl }}{% link docs/configuration.md %}#footer-content).
+This content appears at the bottom of every page's main content. More info for this include can be found in the [Configuration - Footer content]({{ site.baseurl }}{% link guide/configuration.md %}#footer-content).
 
 ### Custom Head
 

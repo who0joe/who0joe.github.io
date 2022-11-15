@@ -7,3 +7,5 @@ gem "jekyll"
 gem "just-the-docs"
 # gem "just-the-docs", "0.3.3" # the latest release - currently 0.3.3
 # gem "just-the-docs", "0.4.0.rc3" # currently the latest pre-release
+
+# gem "github-pages", "~> 227", group: :jekyll_plugins

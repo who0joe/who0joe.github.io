@@ -9,6 +9,8 @@ nav_order: 2
 
 ![]({{ site.url }}/docs/images/dayo.jpg)
 
+![](https://github.com/who0joe/who0joe.github.io/blob/main/docs/images/dayo.JPG)
+
 - title
 {{ site.title }}
 

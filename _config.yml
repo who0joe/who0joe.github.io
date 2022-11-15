@@ -1,5 +1,6 @@
+# reference : https://github.com/just-the-docs/just-the-docs/releases/tag/v0.4.0.rc3
 theme: just-the-docs # static setup for just-the-docs theme
-# remote_theme: just-the-docs/just-the-docs@v0.3.3
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3 # for github-pages deployment
 
 title: Hooyoung # Main title holds all documents
 description: Documents using "Just the Docs" Jekyll Theme

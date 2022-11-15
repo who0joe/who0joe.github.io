@@ -1,5 +1,5 @@
-theme: just-the-docs # static setup for just-the-docs theme
-# remote_theme: just-the-docs/just-the-docs@v0.3.3
+# theme: just-the-docs # static setup for just-the-docs theme
+remote_theme: just-the-docs/just-the-docs@v0.3.3
 
 title: Hooyoung # Main title holds all documents
 description: Documents using "Just the Docs" Jekyll Theme

@@ -8,3 +8,9 @@ nav_order: 99
 ---
 
 Documents Page
+
+{% include codeHeader.html %}
+```shell
+{% include codeHeader.html %}
+pip install pandas, numpy
+```

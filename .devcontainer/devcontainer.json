@@ -10,7 +10,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ritwickdey.LiveServer"
+				"mhutchie.git-graph",
+				"PKief.material-icon-theme"
 			]
 		}
 	}

@@ -25,7 +25,29 @@ nav_order: 1
 
 <br>
 
-# BlockQuote on BlockQuote on BlockQuote
+## 강조(Emphasis)
+
+이텔릭체 *별표(asterisks)* ,  _언더바(underscore)_ 양쪽에 하나  
+볼드체 **별표(asterisks)** 혹은 __언더바(underscore)__ 양쪽에 두개  
+***이텔릭체_와 볼드체*** 를 같이 사용  
+취소선은 ~ 두개 ~~물결표시(tilde)~~ 를 사용하세요.  
+<u>밑줄</u>은 `<u></u>`를 사용하세요.  
+
+
+
+## 줄바꿈
+\<br\>
+혹은 스페이스 두개 "  "
+
+이스케이프 문자 ()를 이용하면, 기능을 가진 문자들을 텍스트처럼 사용 할 수 있다.
+\* 이스케이프 문자로 양옆에 별 표시 가능 \*
+\__ 이스케이프 문자로 양옆에 언더 바 표시 가능 \__
+* 이스케이프 문자로 양옆에 별 표시 가능 *
+
+__ 이스케이프 문자로 양옆에 언더 바 표시 가능 __
+
+
+## BlockQuote on BlockQuote on BlockQuote
 
 >1st
 >>2nd
@@ -35,7 +57,7 @@ nav_order: 1
 <br>
 <br>
 
-# Tab (두번)
+## Tab (두번)
     Tab { 
     Begin
         "Easy to put codes in here"
@@ -43,7 +65,7 @@ nav_order: 1
     }
 <br>
 
-# Ordered List
+## Ordered List
 
 1. list with orders1 1.점뒤에 띄어쓰기 안하면 안됨
 3. list with orders3
@@ -52,7 +74,7 @@ nav_order: 1
 2. 이상하게도 한번 이렇게 하면 숫자 잘못 써도 순서대로 나옴.
 <br>
 
-# Default List
+## Default List
 * - +  3종류 3단계구분
 - 세개 다 동일 단계만 tab으로 구분
 * 세개 다 동일
@@ -64,7 +86,7 @@ nav_order: 1
 
 <br>
 
-# Code Block
+## Code Block
 ```
 public void main(){
 
@@ -159,24 +181,5 @@ But let's throw in a tag.
 <br>
 <br>
 
-# 강조(Emphasis)
 
-이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용하세요.  
-두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용하세요.  
-**_이텔릭체_와 두껍게**를 같이 사용할 수 있습니다.  
-취소선은 ~~물결표시(tilde)~~를 사용하세요.  
-<u>밑줄</u>은 `<u></u>`를 사용하세요.  
-
-
-
-# 줄바꿈
-<br>\<br\>
-혹은 스페이스 두개 "  "
-
-이스케이프 문자 ()를 이용하면, 기능을 가진 문자들을 텍스트처럼 사용 할 수 있다.
-\* 이스케이프 문자로 양옆에 별 표시 가능 \*
-\__ 이스케이프 문자로 양옆에 언더 바 표시 가능 \__
-* 이스케이프 문자로 양옆에 별 표시 가능 *
-
-__ 이스케이프 문자로 양옆에 언더 바 표시 가능 __
 

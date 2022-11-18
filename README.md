@@ -13,28 +13,30 @@ Make sure if you installed "VS Code" and "Docker Engine"
 
 ## How to Use
 
-1. Clone repository
+Clone repository
 ```bash
 $ git clone https://github.com/who0joe/who0joe.github.io.git
 ```
 
-2. Run VS-Code and Open who0joe.github.io folder on VS Code
+Run VS-Code 
 
-3. Run devcontainer envirnoment: "ctrl + shift + P" and, type "rebuild" to execute "Remote-Containers: Rebuild and Reopen in Container"
+Open `who0joe.github.io` folder in VS-Code
 
-<space><space><space><space>
+and, press "ctrl + shift + P" and, type "rebuild" to execute "Remote-Containers: Rebuild and Reopen in Container"
+
 ![](images/run_devcontianer.png)
-<space> 
 
-4. execute `bundle` to generate Gemfile.lock for required dependencies
+
+Execute `bundle` to generate Gemfile.lock for required dependencies
 ```
 $ bundle
 ```
 
-5. run `jekyll serve`, after build finished you can see the site at http://localhost:4000
+Run `jekyll serve`, if build finished you can see the site at http://localhost:4000
 ```
 $ jekyll serve
 ```
+
 
 
 ---

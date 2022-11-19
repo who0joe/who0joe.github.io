@@ -1,7 +1,7 @@
 # [Github Pages] with [Jekyll]
 
 
-## Before Get Start
+## Before Get Started
 
 Make sure if you installed "VS Code" and "Docker Engine"
 

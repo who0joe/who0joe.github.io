@@ -9,7 +9,7 @@ url: https://who0joe.github.io
 
 aux_links: # right-up side button link name and value, comment it NOT to use
   # My Project Repo: https://github.com/who0joe/who0joe.github.io
-  Configuration and Customization  : https://just-the-docs.github.io/just-the-docs/
+   Github Repo : https://github.com/who0joe/who0joe.github.io
 
 aux_links_new_tab: true
 

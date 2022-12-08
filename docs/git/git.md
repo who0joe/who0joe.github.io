@@ -25,8 +25,11 @@ git push [remote] [branch]
 # 원격의 다른브랜치로 push
 git push [remote] [branch] : [remote_branch]
 
+# 기존의 원격 주소 제거
+git remote remove [origin]
+
 # 새로운 원격 추가
-git remote add <remote> <url>
+git remote add [remote] [url]
 
 >>> 참고로, 보통 remote는 "origin" (remote/origin)
 ```

@@ -48,6 +48,20 @@ $ git add .
 $ git commit -m ".gitignore updated"
 ```
 
+
+
+## Git Reset
+
+```bash
+# 브랜치 만들어서 체크아웃한 다음에 
+git checkout [branch]
+# reset명령으로 특정 커밋으로 이동 후 해당 커밋 이후의 커밋 삭제: 일종의 초기화
+# 이렇게 하면, 해당커밋으로 돌아오고 이 커밋이후에 커밋한 내용들 전부 삭제됨
+git reset --hard [commit_hash]
+```
+
+
+
 <br>
 
 # Git Configuation

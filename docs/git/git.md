@@ -46,6 +46,9 @@ git remote add [remote] [url]
 $ git rm -r --cached .
 $ git add .
 $ git commit -m ".gitignore updated"
+
+# 한번에
+git rm -r --cached . && git add . && git commit -m "chore: reapply .gitignore"
 ```
 
 
